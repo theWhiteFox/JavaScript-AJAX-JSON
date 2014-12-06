@@ -12,6 +12,7 @@
      request.open('GET', 'data.txt', false);
      request.send();
      
+     // check request and write to page
      if(request.status===200) {
      console.log(request); 
      document.writeln(request.responseText);
