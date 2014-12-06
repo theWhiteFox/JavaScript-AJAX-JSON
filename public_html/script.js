@@ -20,9 +20,15 @@
      }     
      request.open('GET', 'data.txt');
      request.onreadystatechange = function() {
-        if ((request.readyState === 4) && (request.status===200)) {
-           console.log(request);
-           document.writeln(request.responseText);
+        if ((request.readyState === 4) && 
+                (request.status===200)) {           
+           var modify = 
+                   document.getElementsByTagName('ul')
+           [1].getElementsByTagName('li');            
+           for(var i = 0; i < modify.length; i++) {
+              modify[i].innerHTML = 
+                      request.responseText;
+           }
         }
      };
      request.send();     
