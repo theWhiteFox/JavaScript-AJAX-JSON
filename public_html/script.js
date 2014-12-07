@@ -18,17 +18,23 @@
      } else {
         request = new ActiveXObject("Mircosoft.XMLHTTP");
      }     
-     request.open('GET', 'data.txt');
+     request.open('GET', 'data.xml');
      request.onreadystatechange = function() {
         if ((request.readyState === 4) && 
                 (request.status===200)) {           
-           var modify = 
-                   document.getElementsByTagName('ul')
-           [1].getElementsByTagName('li');            
-           for(var i = 0; i < modify.length; i++) {
-              modify[i].innerHTML = 
-                      request.responseText;
+           console.log(request.responseXML.getElementsByTagName('to')[1].firstChild.nodeValue);
+           
+           var items =
+                   request.responseXML.getElementsByTagName('to');
+           var output = '<ul>';
+           for (var i = 0; i < items.length; i++) {
+              output += '<li>' +
+                      items[i].firstChild.nodeValue +
+                      '</li>';
            }
+           output += '</ul>';
+           
+           document.getElementById('update').innerHTML = output;
         }
      };
      request.send();     

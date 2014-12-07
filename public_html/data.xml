@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Basic xml document -->
+<root>
+   <note>
+      <to>Tove</to>
+      <from>Jani</from>
+      <heading>Reminder</heading>
+      <body>Don't forget me this weekend!</body>
+   </note>
+   <note>
+      <to>James</to>
+      <from>Jenny</from>
+      <heading>Reminder</heading>
+      <body>Don't forget me the Milk</body>
+   </note>
+   <note>
+      <to>Henry</to>
+      <from>Peg</from>
+      <heading>Reminder</heading>
+      <body>Rember yeserday</body>
+   </note>
+</root>
