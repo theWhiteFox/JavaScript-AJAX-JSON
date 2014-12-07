@@ -1,8 +1,7 @@
 /* @ Stephen O'Connor */
 (function() {
    
-   var zx = document.getElementById("button");
-   
+   var zx = document.getElementById("button");   
    zx.onclick = loadAJAX;
    
      function loadAJAX() {
