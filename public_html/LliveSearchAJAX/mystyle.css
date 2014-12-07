@@ -1,0 +1,8 @@
+/* 
+    Created on : 07-Dec-2014, 18:39:05
+    Author     : Stephen
+*/
+@import "http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,500,700";
+body { background: silver;font-family:Source Code Pro;line-height:1.5em; }
+h1 { color:whitesmoke;-webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;}
