@@ -2,7 +2,123 @@
     Created on : 07-Dec-2014, 18:39:05
     Author     : Stephen
 */
+
 @import "http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,500,700";
 body { background: silver;font-family:Source Code Pro;line-height:1.5em; }
 h1 { color:whitesmoke;-webkit-text-stroke-width: .5px;
-   -webkit-text-stroke-color: black;}
+     -webkit-text-stroke-color: black;}
+#searcharea {
+   margin: 0 auto;
+   text-align: center;
+   background-color: goldenrod;     
+   font-size:1em;
+   width:95%;
+   padding:1% 0;
+   -webkit-border-radius: 10px 10px 0 0;
+   -moz-border-radius: 10px 10px 0 0;
+   border-radius: 10px 10px 0 0;
+}
+
+#searcharea label {
+   font-size:1.3em;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+   color: #00f4eb;
+}
+#searcharea p {
+   margin: 0;
+   line-height: 2em;
+   padding-bottom: 5px; 
+   font-size:90%;
+}
+
+#searcharea input {
+   width: 30%;
+   text-align: center; 
+}
+
+#update {
+   width: 95%;
+   margin: 0 auto;
+   border-top: 1px dotted #CCC;
+   font-size:80%;
+
+
+}
+
+#update ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#update ul li {
+   width: 100%;
+   background: #eee;
+   padding:10px 0px;   
+   height: 110px;
+   overflow: hidden;
+   border-bottom: 1px dotted #CCC;
+
+   -webkit-animation: myani 1s;
+   -moz-animation: myani 1s;
+   -o-animation: myani 1s;
+   animation: myani 1s;
+
+   -webkit-transition: height 2s ease-out;
+   -moz-transition: height 2s ease-out;
+   -o-transition: height 2s ease-out;
+   transition: height 2s ease-out;
+}
+
+p {
+   font-size:100%;
+   padding:0.5% 1%;
+}
+
+#update li:hover {
+   background: #fffce5;
+   min-height: 110px;
+   height: 100%;
+   overflow: visible;
+}
+
+#update h2 {
+   margin: 0;
+   padding: 10px;
+   font-size: 1.2em;   
+   padding-bottom: 5px;
+   padding-top: 20px;
+   color: #bf5841;
+   border-bottom: 1px dotted #ccc;
+   margin-bottom: 10px;   
+}
+
+#update img {
+   float: left;
+   width: 80px;
+   margin: 10px;
+   -webkit-border-radius:  10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+}
+
+@-webkit-keyframes myani {
+   0% { opacity: 0.3; }
+   100% { opacity: 1.0;}
+}
+
+@-moz-keyframes myani {
+   0% { opacity: 0.3; }
+   100% { opacity: 1.0;}
+}
+
+@-o-keyframes myani {
+   0% { opacity: 0.3; }
+   100% { opacity: 1.0;}
+}
+
+@keyframes myani {
+   0% { opacity: 0.3; }
+   100% { opacity: 1.0;}
+}
