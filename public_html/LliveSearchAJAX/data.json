@@ -1,33 +1,33 @@
-{ "speakers" : [
+[
   {
-    "name":"Alphonse Gabriel Capone",
-    "shortname":"Al_Capone",
-    "reknown":"Powerful crime boss",
-    "bio":"After his initial stint with small-time gangs that included the Junior Forty Thieves and the Bowery Boys, Capone joined the Brooklyn Rippers and then the powerful Five Points Gang based in Lower Manhattan. During this time, he was employed and mentored by fellow racketeer Frankie Yale (an associate of Torrio) as a bartender in a Coney Island dance hall and saloon called the Harvard Inn. Capone received the scars that gave him the nickname \"Scarface\" in a fight. After he inadvertently insulted a woman while working the door at a Brooklyn night club, Capone was attacked by her brother Frank Gallucio; his face was slashed three times on the left side. Al later claimed that he received the scars serving with the famous Lost Battalion during World War I but in reality he never served in the military. <p> Torrio moved to Chicago during the war. Al had a son with Mae Coughlin on December 4, 1918 and they married on December 30, 1918. </p><p>  Yale contacted Torrio and requested that he give Capone work in Chicago because he was being investigated for a murder in New York and also needed to tidy up his image. Capone accepted Torrio's offer and went to Chicago in 1919 where he worked as Torrio's driver and as a bouncer and bartender at the Four Deuces brothel. He moved his family to Chicago soon afterwards. </p>"
-  },
-  {
-    "name":"Enoch Malachi Thompson",
-    "shortname":"Nucky Thompson",
+    "name":"Enoch \"Nucky\" Malachi Thompson",
+    "shortname":"Nucky_Thompson",
     "reknown":"Corrupt Atlantic City Republican Politician and crime boss",
     "bio":"Half corrupt politician, half gangster, and all greedy, Nucky senses the opportunity to further increase his fortune and power through bootlegging when Prohibition becomes official nationwide on January 16, 1920. His  expectations are proven right, but at the same time the new business turns out to be more challenging than expected, and consumes his personal life as the gangs competing for a share of the profit become more and more violent."
   },
   {
     "name":"Margaret Thompson",
-    "shortname":"Peg Rohan",
+    "shortname":"Peg_Rohan",
     "reknown":"Wife of Atlantic City crime boss Nucky Thompson",
     "bio":"A resident of Atlantic City, Margaret is an Irish immigrant of poor, rural background whose relation to the family she left there as a teenager is non-existent. She is the widow of an abusive husband, Hans Schroeder, and has two surviving children, Teddy and Emily. Although smart and with an interest in politics which led her to join the Women's Temperance League and the League of Women Voters, Margaret's main motivation is to secure a source of income that can provide for her and her children and will put back her ideals if she needs to achieve it. Her fortunes greatly improve when she becomes the domestic partner and eventual wife of Atlantic City crime boss Nucky Thompson, but the guilt stemming from his actions soon grows to be too much to bear for her."
   },
+    {
+    "name":"Elias \"Eli\" Thompson",
+    "shortname":"Eli_Thompson",
+    "reknown":"Atlantic County Sheriff, bootlegger",
+    "bio":"As the brother of Atlantic County Treasurer, Nucky Thompson, Eli, not surprisingly, manages to find his way into the position of Sheriff. He and his brother are an effective duo when it comes to keeping a hold on the reigns of the city's corrupt government and underworld. Unspoken tension exists between the brothers however, with rivalry and resentment lurking just below the façade of smiling exteriors."
+  },
+    {
+    "name":"Gillian Darmody",
+    "shortname":"Gillian_Darmody",
+    "reknown":"Showgirl, prostitute, madame and mother of Jimmy Darmody",
+    "bio":"Gillian moved soon to Atlantic City and by age 12 she lived off the money she won selling cigarettes to the tourists on the Boardwalk. It was under the Boardwalk, on April 30, 1897, where she was kissed for the first time by a boy, a kid from out of town named James Edison that had bought a cigarette from her. They wrote their names in a pillar and agreed to see each other again the next day, before James and his family left. That day, May 1, 1897 was the \"Neptune's Bounty\" parade and Gillian was set to appear as one of his 'consorts'."
+  },
   {
-    "name":"James Edison Darmody",
+    "name":"James \"Jimmy\" Edison Darmody",
     "shortname":"Jimmy_Darmody",
     "reknown":"Atlantic City criminal",
     "bio":"Jimmy is the son of one-time Atlantic City boss Commodore Louis Kaestner and showgirl Gillian Darmody.  Joined the US Army and served as a machine gunner during World War I. His son Tommy Darmody was born while he was fighting in the war. During his service in France his right leg was injured by shrapnel from a German grenade causing him to walk with a limp. He returned to Atlantic City after recovering from his injuries and worked as a driver and bodyguard for Nucky. He was frustrated when offered an assistant clerk job and masterminded the Hammonton hijacking to prove his capabilities. He was forced to hide in Chicago for several months because of the murders committed in the hijacking. He eventually returned to Atlantic City to work as Nucky's chief enforcer. He reconciled with his father after Kaestner survived a poisoning attempt"
-  },
-  {
-    "name":"Gillian Darmody",
-    "shortname":"Gillian_Darmody",
-    "reknown":"Showgirl, prostitute, madame and mother",
-    "bio":"Gillian moved soon to Atlantic City and by age 12 she lived off the money she won selling cigarettes to the tourists on the Boardwalk. It was under the Boardwalk, on April 30, 1897, where she was kissed for the first time by a boy, a kid from out of town named James Edison that had bought a cigarette from her. They wrote their names in a pillar and agreed to see each other again the next day, before James and his family left. That day, May 1, 1897 was the \"Neptune's Bounty\" parade and Gillian was set to appear as one of his 'consorts'."
   },
   {
     "name":"Angela Darmody",
@@ -36,7 +36,7 @@
     "bio":"Angela Darmody, née Ianotti, is a young Italian-American woman. She speaks Italian fluently. She met Jimmy Darmody while he was studying at Princeton in 1916, where she was working as a waitress while living with her aunt. The two began a secret relationship with the connivance of Jimmy's roommate Cal Widdecombe. However, the day after she told him she was pregnant, Jimmy left to join the US Army and fight in World War I. Even though he didn't write to her during the following three years - to the point where she believed he was dead - she managed to make her way to Jimmy's hometown of Atlantic City, get herself recognized as Jimmy's common-law wife, get a house and raise her son Tommy with financial aid from Jimmy's guardian, Atlantic County Treasurer Nucky Thompson, all the while dreaming of becoming a famous painter. When her fiancée returned unexpectedly from the war, however, she gave up her dream in order to play the role of housewife and mother. (\"Boardwalk Empire\", \"Under God's Power She Flourishes\", \"A Dangerous Maid\") "
   },
   {
-    "name":"Albert White",
+    "name":"Albert \"Chalky\" White",
     "shortname":"Chalky_White",
     "reknown":"Racketeer and the unofficial leader of the African-American community in Atlantic City",
     "bio":"Chalky had moved to Atlantic City by the late 1890s, where he ran dice games by the beach. It was there, in 1898, when he first met and began to pay then Sheriff Nucky Thompson a bribe destined to the town boss, the Commodore Louis Kaestner. In 1901 Chalky met the Commodore himself and learned that Nucky had been looking out for him during those three years, keeping him out of trouble. (\"The Emerald City\"). Chalky also paid bribes to Jim Neary when he was a cop.  Eventually, Chalky amassed enough money and power to become the unofficial leader of the town's black community, centered on Atlantic City's North Side. Chalky would charge exorbitant sums of money and other favors to politicians, usually of the dominant Republican Party in exchange for 100 percent of the black vote. In return, Chalky distributed a small part of the wealth in gifts and money among the African-American community and intervened in their favor when they had a problem. He married up, to an educated, light-skinned African-American woman, Lenore White. By 1921 he has fathered three children: two teenagers, Lester and Maybelle, and an infant, Adeline. His house is one of the most luxurious in Atlantic City (\"Ourselves Alone\")."
@@ -45,12 +45,12 @@
     "name":"Richard Harrow",
     "shortname":"Richard_Harrow",
     "reknown":"Disfigured war veteran, criminal",
-    "bio":"Harrow was a marksman in the US Army during World War I. A war injury Screen shot caused substantial damage to the left side of his face; he lost his eye, most of his cheek bone, the left half of his upper jaw and endured heavy scarring. In order to enter society with the least amount of distress, Harrow covers his scars with a tin plate that was molded to his face and painted to match his skin tone."
+    "bio":"Richard Harrow was a marksman in the US Army during World War I. A war injury Screen shot caused substantial damage to the left side of his face; he lost his eye, most of his cheek bone, the left half of his upper jaw and endured heavy scarring. In order to enter society with the least amount of distress, Harrow covers his scars with a tin plate that was molded to his face and painted to match his skin tone."
   },
-  {
-    "name":"Elias Thompson",
-    "shortname":"Eli_Thompson",
-    "reknown":"Atlantic County Sheriff, bootlegger",
-    "bio":"As the brother of Atlantic County Treasurer, Nucky Thompson, Eli, not surprisingly, manages to find his way into the position of Sheriff. He and his brother are an effective duo when it comes to keeping a hold on the reigns of the city's corrupt government and underworld. Unspoken tension exists between the brothers however, with rivalry and resentment lurking just below the façade of smiling exteriors."
+    {
+    "name":"Alphonse \"Al\" Gabriel Capone",
+    "shortname":"Al_Capone",
+    "reknown":"Powerful crime boss",
+    "bio":"After his initial stint with small-time gangs that included the Junior Forty Thieves and the Bowery Boys, Capone joined the Brooklyn Rippers and then the powerful Five Points Gang based in Lower Manhattan. During this time, he was employed and mentored by fellow racketeer Frankie Yale (an associate of Torrio) as a bartender in a Coney Island dance hall and saloon called the Harvard Inn. Capone received the scars that gave him the nickname \"Scarface\" in a fight. After he inadvertently insulted a woman while working the door at a Brooklyn night club, Capone was attacked by her brother Frank Gallucio; his face was slashed three times on the left side. Al later claimed that he received the scars serving with the famous Lost Battalion during World War I but in reality he never served in the military. <p> Torrio moved to Chicago during the war. Al had a son with Mae Coughlin on December 4, 1918 and they married on December 30, 1918. </p><p>  Yale contacted Torrio and requested that he give Capone work in Chicago because he was being investigated for a murder in New York and also needed to tidy up his image. Capone accepted Torrio's offer and went to Chicago in 1919 where he worked as Torrio's driver and as a bouncer and bartender at the Four Deuces brothel. He moved his family to Chicago soon afterwards. </p>"
   }
-]}
+]
