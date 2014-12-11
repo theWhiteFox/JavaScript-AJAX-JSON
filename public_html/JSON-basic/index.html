@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- @ Stephen O'Connor -->
+<html lang="en">
+   <head>
+      <title>JavaScript And JSON</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <header>
+         <h2>Links no order</h2>
+      </header>
+      <ol id="links">         
+      </ol>
+      <script>
+         // object with an array of object links
+         var info = {
+            "full_name" : "SteJ O'Connor",
+            "title" : "Web Developer",
+            "links" : [
+                  { "blog"       : "http://stejblog.azurewebsites.net" },
+                  { "website"    : "http://stephenoconnor.azurewebsites.net" },
+                  { "linkedin"   : "https://linkedin.com/pub/stephen-j-o-connor/47/629/206" },
+                  { "search"     : "http://stephcakelivesearch.azurewebsites.net" },
+                  { "github"     : "https://github.com/Stevo5o" }             
+            ]            
+         };
+
+         var output = '';
+
+         for (var i = 0, len = info.links.length; i <= len; i++) {
+            for( key in info.links[i] ) {
+               if(info.links[i].hasOwnProperty(key)) {
+                  output += '<li>' +
+                  '<a href = "' + info.links[i][key] +
+                  '">' + key + '</a>' +
+                  '</li>';
+               } // hasOwnProperty check
+            } // for each object 
+         } // for each array element
+
+         var update = document.getElementById('links');
+         update.innerHTML = output;
+
+      </script>
+   </body>
+</html>
