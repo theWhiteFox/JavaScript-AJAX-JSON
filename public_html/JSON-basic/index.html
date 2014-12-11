@@ -8,20 +8,40 @@
    </head>
    <body>
       <header>
-         <h2>This is to test JSON in the console</h2>
+         <h2>Links no order</h2>
       </header>
+      <ul id="links">         
+      </ul>
       <script>
+         // object list of links
          var info = {
             "full_name" : "SteJ O'Connor",
             "title" : "Web Developer",
-            "links" : [
-               { "blog" : "http://stejblog.azurewebsites.net" },
-               { "my_website" : "http://stephenoconnor.azurewebsites.net" },
-               { "linkedin" : "https://linkedin.com/pub/stephen-j-o-connor/47/629/206" },
-               { "live_search" : "http://stephcakelivesearch.azurewebsites.net" },
-               { "github" : "https://github.com/Stevo5o" }
-            ]
+            "links" : 
+               { 
+                  "blog" : "http://stejblog.azurewebsites.net" ,
+                  "website" : "http://stephenoconnor.azurewebsites.net" ,
+                  "linkedin" : "https://linkedin.com/pub/stephen-j-o-connor/47/629/206" ,
+                  "search" : "http://stephcakelivesearch.azurewebsites.net" ,
+                  "github" : "https://github.com/Stevo5o" 
+            }
+            
          };
+
+         var output = "";
+
+         for( key in info.links) {
+            if(info.links.hasOwnProperty(key)) {
+               output += '<li>' +
+               '<a href = "' + info.links[key] +
+               '">' + key + '</a>' +
+               '</li>';
+            }
+         }
+
+         var update = document.getElementById('links');
+         update.innerHTML = output;
+
       </script>
    </body>
 </html>
