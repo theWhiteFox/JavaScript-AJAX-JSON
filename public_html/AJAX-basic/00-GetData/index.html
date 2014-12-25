@@ -11,29 +11,13 @@
          <h1>AJAX Get</h1>
       </header>
       <main>
-         <p>Main Content</p>
+         <p>Film List</p>
          <article id="data"><h2>Replace this text</h2></article> 
-         <button type="button" onclick="getDataFromText()">Change Data</button>
+         <button type="button" onclick="getDataFromXml()">Change Data</button>
       </main>
       <footer>
          <p>&copy; 2014 StephCake</p>
       </footer>
- <script type="text/javascript">
-      function getDataFromText() {
-         var xmlhttp;
-         if(window.XMLHttpRequest){
-            xmlhttp = new XMLHttpRequest ();
-         } else {
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-         }
-         xmlhttp.onreadystatechange=function() {
-            if(xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-               document.getElementById('data').innerHTML=xmlhttp.responseText;
-            }
-         };
-         xmlhttp.open("GET","data.txt",true);
-         xmlhttp.send();
-      }
-      </script>
+      <script src="scriptAjax.js" type="text/javascript"></script>
    </body>
 </html>

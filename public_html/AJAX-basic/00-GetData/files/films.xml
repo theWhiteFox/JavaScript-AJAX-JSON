@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @ StephCake -->
+<!DOCTYPE films SYSTEM "films.dtd">
+<films>
+	<film>
+		<title>A Prophet</title>
+		<year>2009</year>
+		<genre>Drama</genre>
+		<director>Jacques Audiard</director>
+	</film>
+	<film>
+		<title>The Big Lebowski</title>
+		<year>1998</year>
+		<genre>Comedy</genre>
+		<director>The Coen Brothers</director>
+	</film>
+	<film>
+		<title>Ghost in the Shell</title>
+		<year>1995</year>
+		<genre>Anime</genre>
+		<director>Mamoru Oshii</director>
+	</film>
+	<film>
+		<title>The Princess Bride</title>
+		<year>1987</year>
+		<genre>Fantasy Romance</genre>
+		<director>Rob Reiner</director>
+	</film>
+	<film>
+		<title>The Third Man</title>
+		<year>1949</year>
+		<genre>Film-Noir Mystery</genre>
+		<director>Carol Reed</director>
+	</film>
+</films>
+
+
