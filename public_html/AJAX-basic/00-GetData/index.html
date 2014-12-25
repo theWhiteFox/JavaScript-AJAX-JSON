@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <!-- @ Stephen O'Connor -->
 <html lang="en">
-   <head>
-      <title>TODO supply a title</title>
+   <head>           
+      <title>AJAX Get</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
       <header>
-         <h2></h2>
+         <h1>AJAX Get</h1>
       </header>
-      <div id="">
+      <main>
          <p>Main Content</p>
-      </div>
+         <article id="data"><h2>Replace this text</h2></article> 
+         <button type="button" onclick="getDataFromText()">Change Data</button>
+      </main>
       <footer>
-         <p>Copyright Information</p>
+         <p>&copy; 2014 StephCake</p>
       </footer>
+ <script type="text/javascript">
+      function getDataFromText() {
+         var xmlhttp;
+         if(window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequest ();
+         } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+         }
+         xmlhttp.onreadystatechange=function() {
+            if(xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+               document.getElementById('data').innerHTML=xmlhttp.responseText;
+            }
+         };
+         xmlhttp.open("GET","data.txt",true);
+         xmlhttp.send();
+      }
+      </script>
    </body>
 </html>
