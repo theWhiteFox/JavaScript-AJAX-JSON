@@ -6,12 +6,38 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script>
-         var film = {
-            title:"A Prophet",
-            year:"2004",
-            genre:"Drama",
-            directior:"Jacques Audiard"            
-         };
+         var films = [
+            {
+               title: "A Prophet",
+               year: "2004",
+               genre: "Drama",
+               directior: "Jacques Audiard"
+            },
+            {
+               title: "The Big Lebowski",
+               year: "1998",
+               genre: "Comedy",
+               directior: "The Coen Brothers"
+            },
+            {
+               title: "Ghost in the Shell",
+               year: "1995",
+               genre: "Anime",
+               directior: "Mamoru Oshii"
+            },
+            {
+               title: "The Princess Bride",
+               year: "1987",
+               genre: "Fantasy Romance",
+               directior: "Rob Reiner"
+            },
+            {
+               title: "The Third Man",
+               year: "1949",
+               genre: "Film-Noir Mystery",
+               directior: "Carol Reed"
+            }
+         ];
       </script>
    </head>
    <body>
@@ -22,7 +48,7 @@
          <p>Main Content</p>
       </div>
       <script type="text/javascript">
-      document.write(film.title);
+         document.write(films[2].title);
       </script>
       <footer>
          <p>Copyright Information</p>
