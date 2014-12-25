@@ -1,0 +1,34 @@
+{
+   "films" : [
+            {
+               "title": "A Prophet",
+               "year": "2004",
+               "genre": "Drama",
+               "director": "Jacques Audiard"
+            },
+            {
+               "title": "The Big Lebowski",
+               "year": "1998",
+               "genre": "Comedy",
+               "director": "The Coen Brothers"
+            },
+            {
+               "title": "Ghost in the Shell",
+               "year": "1995",
+               "genre": "Anime",
+               "director": "Mamoru Oshii"
+            },
+            {
+               "title": "The Princess Bride",
+               "year": "1987",
+               "genre": "Fantasy Romance",
+               "director": "Rob Reiner"
+            },
+            {
+               "title": "The Third Man",
+               "year": "1949",
+               "genre": "Film-Noir Mystery",
+               "director": "Carol Reed"
+            }
+         ]
+}
