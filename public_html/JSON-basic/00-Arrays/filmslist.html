@@ -11,31 +11,31 @@
                title: "A Prophet",
                year: "2004",
                genre: "Drama",
-               directior: "Jacques Audiard"
+               director: "Jacques Audiard"
             },
             {
                title: "The Big Lebowski",
                year: "1998",
                genre: "Comedy",
-               directior: "The Coen Brothers"
+               director: "The Coen Brothers"
             },
             {
                title: "Ghost in the Shell",
                year: "1995",
                genre: "Anime",
-               directior: "Mamoru Oshii"
+               director: "Mamoru Oshii"
             },
             {
                title: "The Princess Bride",
                year: "1987",
                genre: "Fantasy Romance",
-               directior: "Rob Reiner"
+               director: "Rob Reiner"
             },
             {
                title: "The Third Man",
                year: "1949",
                genre: "Film-Noir Mystery",
-               directior: "Carol Reed"
+               director: "Carol Reed"
             }
          ];
       </script>
@@ -45,13 +45,20 @@
          <h2>My Films</h2>
       </header>
       <div id="content">
-         <p>Main Content</p>
+         <p>Main Content</p>      
+         <ul>
+            <script type="text/javascript">
+               for (var i = 0; i < films.length; i++) {
+                  document.write('<h4>' + films[i].title + '</h4>');
+                  document.write('<li>' + films[i].year + '</li>');
+                  document.write('<li>' + films[i].genre + '</li>');
+                  document.write('<li>' + films[i].director);
+               }
+            </script>
+         </ul>
+         <footer>
+            <p>&copy; StephCake</p>
+         </footer>
       </div>
-      <script type="text/javascript">
-         document.write(films[2].title);
-      </script>
-      <footer>
-         <p>Copyright Information</p>
-      </footer>
    </body>
 </html>
