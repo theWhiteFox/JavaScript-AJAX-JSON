@@ -1,0 +1,11 @@
+footer, h1{text-align: center;}
+main{width:600px;border:1px dotted black;margin:auto;background-color: goldenrod;
+	overflow:hidden;height:200px;text-align: center;
+}
+footer{color:#FF69B4;}
+*{
+	font-family: SOurce Code Pro;	
+}
+body{background-color: black;}
+#film_info {background-color: goldenrod;}
+li{list-style: none;padding-left:5px;}
