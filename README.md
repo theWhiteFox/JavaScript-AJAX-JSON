@@ -1,12 +1,13 @@
-# An exercise in JavaScript AJAX & jQuery
+# An exercise in learning JavaScript jQuery & AJAX
 
-* JavaScript high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification
-    * ECMAScript (ES) trademarked scripting-language specification standardized by Ecma International (European Computer Manufacturers Association) in ECMA-262 and ISO/IEC 16262
+JavaScript - high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification
+* ECMAScript (ES) - trademarked scripting-language specification standardized by Ecma International (European Computer Manufacturers Association) in ECMA-262 and ISO/IEC 16262
 
-* AJAX short for asynchronous JavaScript and XML
-    * Asynchronous communication is the relay of information with a time lag
+jQuery is a fast and concise JavaScript Library created by John Resig in 2006 with a nice motto − Write less, do more. jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development    
 
-* jQuery is a fast and concise JavaScript Library created by John Resig in 2006 with a nice motto − Write less, do more. jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development    
+AJAX - asynchronous JavaScript and XML
+* Asynchronous communication is the relay of information with a time lag
+* Extensible Markup Language (XML) file format used to create common information formats and share both the format and the data on the World Wide Web, intranets, and elsewhere using standard ASCII text
 
 ## Reference
 [introduction to asynchronous javascript | hack.guides()](https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript)
